@@ -92,8 +92,34 @@ but they are shared with I2C, so `A0` is the uncomplicated default.
 
 The C++ Photon 2 application is
 [`examples/ParticlePhoton2/ParticlePhoton2.cpp`](examples/ParticlePhoton2/ParticlePhoton2.cpp).
-Add that file and the two files under `src/` to a Particle Workbench project,
-then build it for `P2` / Photon 2 with Device OS 5.0.0 or later.
+Build it for `P2` / Photon 2 with Device OS 5.0.0 or later.
+
+### Install in Particle Workbench for VS Code
+
+The public Particle library name is `CapacitiveSoilMoisture`. Open your
+Particle application project in VS Code before installing it; do not install
+the library into a checkout of this library's own source repository.
+
+1. Open the Particle Workbench welcome page and click **Install library** under
+   **CODE**. You can also open the Command Palette and run
+   **Particle: Install Library**.
+
+   ![Particle Workbench welcome page with Install library highlighted](docs/images/particle-workbench-install-library.png)
+
+2. Enter `CapacitiveSoilMoisture` and press **Enter**.
+
+   ![Particle Workbench library search containing CapacitiveSoilMoisture](docs/images/particle-workbench-search-library.png)
+
+3. Workbench installs the library under
+   `lib/CapacitiveSoilMoisture` in your application project.
+
+   ![CapacitiveSoilMoisture installed in the Particle Workbench lib directory](docs/images/particle-workbench-installed-library.png)
+
+Include it in application code with:
+
+```cpp
+#include "CapacitiveSoilMoisture.h"
+```
 
 ## Arduino
 
