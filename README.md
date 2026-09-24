@@ -7,7 +7,7 @@ signal wire connects directly to an ADC pin.
 
 ## Sensor used for this project
 
-[![SZHJW analog capacitive soil-moisture sensor with three-wire cable](docs/images/szhjw-capacitive-soil-sensor.png)](https://a.aliexpress.com/_mqTECgj)
+<a href="https://a.aliexpress.com/_mqTECgj"><img src="docs/images/szhjw-capacitive-soil-sensor.png" alt="SZHJW analog capacitive soil-moisture sensor with three-wire cable" width="520"></a>
 
 - [Original AliExpress product listing](https://a.aliexpress.com/_mqTECgj)
 - Listing specifications: 3.3-5.5 V supply, 0-3.0 V analog output, PH2.0-3P
@@ -20,12 +20,12 @@ signal wire connects directly to an ADC pin.
 This is the DFRobot-branded sensor. It is electrically compatible, but it is
 not the SZHJW sensor pictured above.
 
-[![DFRobot SEN0193 capacitive soil-moisture sensor](docs/images/dfrobot-sen0193.png)](https://wiki.dfrobot.com/sen0193)
+<a href="https://wiki.dfrobot.com/sen0193"><img src="docs/images/dfrobot-sen0193.png" alt="DFRobot SEN0193 capacitive soil-moisture sensor" width="420"></a>
 
 <details>
 <summary>Original seller specification screenshot</summary>
 
-![Seller specifications for the analog capacitive soil-moisture sensor](docs/images/aliexpress-sensor-specifications.png)
+<img src="docs/images/aliexpress-sensor-specifications.png" alt="Seller specifications for the analog capacitive soil-moisture sensor" width="650">
 
 </details>
 
@@ -104,16 +104,16 @@ the library into a checkout of this library's own source repository.
    **CODE**. You can also open the Command Palette and run
    **Particle: Install Library**.
 
-   ![Particle Workbench welcome page with Install library highlighted](docs/images/particle-workbench-install-library.png)
+   <img src="docs/images/particle-workbench-install-library.png" alt="Particle Workbench welcome page with Install library highlighted" width="900">
 
 2. Enter `CapacitiveSoilMoisture` and press **Enter**.
 
-   ![Particle Workbench library search containing CapacitiveSoilMoisture](docs/images/particle-workbench-search-library.png)
+   <img src="docs/images/particle-workbench-search-library.png" alt="Particle Workbench library search containing CapacitiveSoilMoisture" width="760">
 
 3. Workbench installs the library under
    `lib/CapacitiveSoilMoisture` in your application project.
 
-   ![CapacitiveSoilMoisture installed in the Particle Workbench lib directory](docs/images/particle-workbench-installed-library.png)
+   <img src="docs/images/particle-workbench-installed-library.png" alt="CapacitiveSoilMoisture installed in the Particle Workbench lib directory" width="420">
 
 Include it in application code with:
 
