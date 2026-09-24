@@ -146,3 +146,7 @@ c++ -std=c++11 -Wall -Wextra -Werror \
   -o /tmp/capacitive-soil-test
 /tmp/capacitive-soil-test
 ```
+
+## License
+
+Copyright (c) 2026 Isabella Wu. Released under the [MIT License](LICENSE).
