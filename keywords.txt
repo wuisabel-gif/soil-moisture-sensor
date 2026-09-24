@@ -1,0 +1,7 @@
+CapacitiveSoilMoisture	KEYWORD1
+begin	KEYWORD2
+read	KEYWORD2
+readRaw	KEYWORD2
+readPercent	KEYWORD2
+setCalibration	KEYWORD2
+calculatePercent	KEYWORD2
