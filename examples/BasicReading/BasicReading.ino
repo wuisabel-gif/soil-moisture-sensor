@@ -1,6 +1,6 @@
 #include <CapacitiveSoilMoisture.h>
 
-constexpr uint8_t kSoilPin = A0;
+constexpr CapacitiveSoilPin kSoilPin = A0;
 
 // Replace these example values after running the Calibration example.
 CapacitiveSoilMoisture soil(kSoilPin, 812, 347);

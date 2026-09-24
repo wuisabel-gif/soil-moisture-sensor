@@ -1,8 +1,7 @@
-#include <Arduino.h>
 #include <CapacitiveSoilMoisture.h>
 
 namespace {
-constexpr uint8_t kSoilPin = A0;
+constexpr CapacitiveSoilPin kSoilPin = A0;
 
 // Examples only. Replace these with values measured by Calibration.ino.
 CapacitiveSoilMoisture soil(kSoilPin, 812, 347);

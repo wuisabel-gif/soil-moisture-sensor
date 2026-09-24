@@ -1,6 +1,6 @@
 #include <CapacitiveSoilMoisture.h>
 
-constexpr uint8_t kSoilPin = A0;
+constexpr CapacitiveSoilPin kSoilPin = A0;
 
 // Calibration endpoints are irrelevant while only readRaw() is used.
 CapacitiveSoilMoisture soil(kSoilPin, 0, 1);
